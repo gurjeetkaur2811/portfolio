@@ -6,39 +6,166 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kameron:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Puppies+Play&family=Racing+Sans+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="icon" type="image/x-icon" href="assets/Images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/Images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Gurjeet Kaur</title>
 </head>
 <body>
     <section class="about">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+
+        <div class="about__hero">
+            <nav class="container navbar navbar-expand-lg navbar-light navbar--about">
                 <a class="navbar__logo" href="#">Gk</a>
                 <button class="navbar-toggler navbar__hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar__nav collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="aboutMe.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="aboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
                 </div>
             </nav>
-
-            <div class="about__content">
-               <h2>My Story is Loading...</h2>
-                <p>This page is under thoughtful construction. <br> Soon, you'll get to know the designer behind the pixels!</p>
+            <div class="about-content__details">
+                <div class="content__wrapper">
+                <h2>Hey there, I'm Gurjeet Kaur</h2>
+                <h6>A passionate UI/UX Designer with a curious mind and a love for turning ideas into intuitive experiences.</h6>
+                </div>
             </div>
         </div>
-    </section>
+        <div class="container about__description"> 
+            <p>My journey began during my B.Tech in Computer Science, where I started exploring creativity through freelance logo design projects alongside my studies. It was in my final semester that everything changed, I joined Covalience India as an intern, diving deep into HTML, CSS, JavaScript, and other web technologies.</p>
+
+             <p>While I enjoyed coding, I found myself more drawn toward the visual side of development like the layout, the colors, the interaction. That’s when I discovered the world of UI/UX design, and I knew I had found my space. I shifted my internship focus toward UI/UX and never looked back.</p>
+
+             <p>What started as curiosity turned into a full-time role. I officially became a <i>UI/UX Designer at Covalience</i>, and now, 2 years later, I still feel the same excitement I felt on day one. Every screen I design is a blend of problem-solving, empathy, and creativity and that’s why I can proudly say: <br> I’m a passionate UI/UX Designer.</p>
+        </div>
+        <section class="container strengths">
+            <h2 class="strengths__title">What Sets Me Apart</h2>
+            <p>My top <b>Gallup strengths</b> deeply influence the way I approach design challenges, collaborate with teams, and create user-centric solutions:</p>
+            <div class="strengths__cards">
+                <div class="cards__details">
+                        <div class="card card--purple">
+                            <h4>Restorative</h4>
+                            <p>I solve design problems by identifying pain points and crafting purposeful solutions.</p>
+                        </div>
+                        <div class="card card--blue">
+                            <h4>Positivity</h4>
+                            <p>I uplift teams and clients with a can-do mindset that keeps creativity flowing.</p>
+                        </div>
+                        <div class="card card--orange">
+                            <h4>Communication</h4>
+                            <p>I turn complex ideas into clear, user-friendly design narratives.</p>
+                        </div>
+                        <div class="card card--orange">
+                        <h4>Competition</h4>
+                        <p>I consistently aim higher, refining every detail to deliver top-notch experiences.</p>
+                        </div>
+                        <div class="card card--blue">
+                        <h4>Adaptability</h4>
+                        <p>I embrace change with calmness and flexibility to keep designs relevant and effective.</p>
+                </div>
+                </div>                        
+            </div>
+        </section>
+
+        <section class="skills__section" id="skills">
+            <h2 class="skills__title">Skills</h2>
+            <div class="skills__grid">
+
+  <div class="skill__card">
+    <h4>Core Design</h4>
+    <ul>
+      <li><i class="fas fa-pencil-ruler"></i> UI/UX Design</li>
+      <li><i class="fas fa-vector-square"></i> Wireframing & Prototyping</li>
+      <li><i class="fas fa-font"></i> Typography & Layout</li>
+      <li><i class="fas fa-layer-group"></i> Design Systems</li>
+      <li><i class="fas fa-universal-access"></i> Accessibility</li>
+    </ul>
+  </div>
+
+  <div class="skill__card">
+    <h4>Design Tools</h4>
+    <ul>
+      <li><i class="fab fa-figma"></i> Figma</li>
+      <li><i class="fas fa-desktop"></i> Adobe XD</li>
+      <li><i class="fas fa-image"></i> Photoshop</li>
+      <li><i class="fas fa-pen-nib"></i> Illustrator</li>
+      <li><i class="fas fa-video"></i> Premiere Pro</li>
+    </ul>
+  </div>
+
+  <div class="skill__card">
+    <h4>Front-End</h4>
+    <ul>
+      <li><i class="fab fa-html5"></i> HTML5, CSS3</li>
+      <li><i class="fab fa-js"></i> JavaScript (Basic)</li>
+      <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+      <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+    </ul>
+  </div>
+
+  <div class="skill__card">
+    <h4>UX Research</h4>
+    <ul>
+      <li><i class="fas fa-users"></i> User Personas</li>
+      <li><i class="fas fa-brain"></i> Empathy Mapping</li>
+      <li><i class="fas fa-route"></i> Journey Mapping</li>
+      <li><i class="fas fa-vial"></i> Usability Testing</li>
+      <li><i class="fas fa-sitemap"></i> Information Architecture</li>
+    </ul>
+  </div>
+
+   <div class="skill__card">
+    <h4>Design Process & Strategy</h4>
+    <ul>
+      <li><i class="fas fa-search"></i> Problem Discovery</li>
+      <li><i class="fas fa-lightbulb"></i> Ideation & Concepting</li>
+      <li><i class="fas fa-compass-drafting"></i> Design Sprints</li>
+      <li><i class="fas fa-project-diagram"></i> UX Flows & Scenarios</li>
+      <li><i class="fas fa-sync-alt"></i> Iterative Improvement</li>
+    </ul>
+  </div>
+
+  <div class="skill__card">
+    <h4>Soft Skills</h4>
+    <ul>
+      <li><i class="fas fa-lightbulb"></i> Creative Thinking</li>
+      <li><i class="fas fa-comments"></i> Communication</li>
+      <li><i class="fas fa-clock"></i> Time Management</li>
+      <li><i class="fas fa-sync"></i> Adaptability</li>
+      <li><i class="fas fa-comment-dots"></i> Feedback Handling</li>
+    </ul>
+  </div>
+</div>
+</section>
+</div>
+</section>
+<footer class="footer">
+        <div class="container footer__content">
+            <div class="content__details">
+                <p>Let’s create something amazing together — get in touch!</p>
+                <div class="details__socials">
+                    <a href="https://www.linkedin.com/in/gurjeet-kaur-gaddu/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://dribbble.com/kgurjeet149" target="_blank"><i class="fab fa-dribbble"></i></a>
+                    <a href="https://www.youtube.com/@PixelJournal28" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/_pixel.journal_/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+            <span>&copy; 2025 Gurjeet Kaur. All Rights Reserved.</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
