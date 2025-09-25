@@ -801,7 +801,7 @@ textarea.form-control {
     flex-direction: column;
 }
 
-.tvp__list-item strong {
+.attend__list-item strong {
     color: #3c6dad;
 }
 
@@ -889,7 +889,6 @@ textarea.form-control {
 
     .tvp__section h2 {
         padding-right: 61px;
-        color: #9cad7d8c;
         font-size: 26px;
         font-weight: bolder;
         width: 184px;
